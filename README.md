@@ -3,6 +3,7 @@
 Welp.com is an ASP.NET project that emulates the functionality of Yelp.com, allowing users to review and search for businesses in their vicinity. This platform provides an interactive interface for discovering local businesses and sharing your reviews with the community.
 
 <h1>Features:</h1>
+
 Business Listings: Explore a comprehensive list of businesses categorized by location, industry, and keywords.
 
 Business Details: Access in-depth information about each business, including its address, contact details, images, and user reviews.
