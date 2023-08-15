@@ -1,0 +1,109 @@
+﻿* {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: var(--primary-color);
+    background-image: linear-gradient(black 2%, var(--primary-color));
+    background-repeat: repeat-x;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+:root {
+    --primary-color: #cccccc;
+    --secondary-color: #666;
+    --wowalagreen: rgb(64 158 64 / 0.90);
+}
+
+h2 {
+    text-align: center;
+    color: whitesmoke;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 36px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+section {
+    max-width: 600px;
+    margin: auto;
+    margin-top: 50px;
+    padding: 30px;
+    border: 2px solid #409E40;
+    border-radius: 25px;
+    background-color: var(--wowalagreen);
+    box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.2);
+}
+
+label {
+    display: block;
+    margin-bottom: 10px;
+    color: #1e3a1e;
+    font-weight: bold;
+}
+
+.TextBox {
+    display: block;
+    width: 80%;
+    background-color: whitesmoke;
+    padding: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    border-radius: 5px;
+    border: none;
+    box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.2);
+}
+
+
+
+input[type='checkbox']:after {
+    width: 9px;
+    height: 9px;
+    border-radius: 9px;
+    top: -2px;
+    left: -1px;
+    position: relative;
+    background-color: #3B8054;
+    content: '';
+    display: inline-block;
+    visibility: visible;
+    border: 3px solid #3B8054;
+    transition: 0.5s ease;
+    cursor: pointer;
+}
+
+input[type='checkbox']:checked:after {
+    background-color: whitesmoke;
+}
+
+.Button {
+    display: block;
+    background-color: #333;
+    color: #fff;
+    margin: auto;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+    .Button :hover {
+        background-color: #252525;
+    }
+
+
+footer {
+    padding: 5px 20px 20px 20px;
+    text-align: center;
+    font-size: 14px;
+    color: #666;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    /* Adjust the height as needed */
+}

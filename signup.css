@@ -1,0 +1,121 @@
+﻿* {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #cccccc;
+    background-image: linear-gradient(black 2%, #cccccc);
+    background-repeat: repeat-x;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+}
+
+div a {
+    /*logo*/
+}
+
+nav ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav li {
+    margin-right: 20px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    border-radius: 10px;
+    background-color: rgb(64 158 64 / 0.90);
+    padding: 10px;
+    display: inline-block;
+}
+
+main {
+    margin: 20px;
+}
+
+h1 {
+    /*signup heading*/
+    text-align: center;
+    color: whitesmoke;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+
+.signup {
+    max-width: 600px;
+    margin: auto;
+    background-color: #ffffff;
+    padding: 20px;
+    border: 2px solid #409E40;
+    border-radius: 25px;
+    background-color: rgb(64 200 64 / 0.60);
+    box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.2);
+}
+
+label {
+    display: block;
+    margin-bottom: 10px;
+    color: #3a5c3a;
+    font-weight: bold;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+.TextBox {
+    display: block;
+    width: 80%;
+    background-color: whitesmoke;
+    padding: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    border-radius: 5px;
+    border: none;
+    box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.2);
+}
+
+.Button {
+    display: block;
+    background-color: #333;
+    color: #fff;
+    margin: auto;
+    /* margin-left : auto;
+    margin-right: auto;
+    width : 100%; */
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+footer {
+    padding: 5px 20px 20px 20px;
+    text-align: center;
+    font-size: 14px;
+    color: #666;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    
+}

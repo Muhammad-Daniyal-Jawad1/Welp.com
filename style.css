@@ -1,0 +1,207 @@
+﻿* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: 'Helvetica Neue', sans-serif;
+    font-size: 16px;
+    color: #333;
+}
+
+header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 999;
+}
+
+nav ul {
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav li {
+    margin-left: 20px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #333;
+}
+
+    nav a:hover {
+        color: #00bfff;
+    }
+
+.hero {
+    position: relative;
+    height: 400px;
+    text-align: center;
+    color: white;
+}
+
+.hero-image {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-image: url('index.jpg');
+    background-size: cover;
+    filter: blur(2px);
+    z-index: -1;
+}
+
+.hero h1,
+.hero p,
+.hero button {
+    position: static;
+    z-index: 1;
+}
+
+
+
+
+.hero-content {
+    text-align: center;
+    color: white;
+}
+
+.hero {
+    position: relative;
+    height: 500px;
+    overflow: hidden;
+}
+
+.bg-image {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    filter: blur(2px);
+    z-index: -1;
+}
+
+.content {
+    position: relative;
+    z-index: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    text-align: center;
+}
+
+
+
+.hero h1 {
+    font-size: 48px;
+    color: #fff;
+    margin-bottom: 20px;
+    margin-top: 100px;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); /* Add text shadow properties here */
+}
+
+.hero p {
+    font-size: 24px;
+    color: #fff;
+    margin-bottom: 40px;
+    text-align: center;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); /* Add text shadow properties here */
+}
+
+button {
+    background-color: #00bfff;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.reviews {
+    margin-top: 50px;
+}
+
+.review {
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+    .review h3 {
+        font-size: 24px;
+        color: #333;
+        margin-bottom: 10px;
+    }
+
+    .review p {
+        font-size: 16px;
+        color: #666;
+        margin-bottom: 20px;
+    }
+
+.rating {
+    background-color: #00bfff;
+    color: #fff;
+    padding: 5px 10px;
+    border-radius: 5px;
+    display: inline-block;
+    font-size: 16px;
+}
+
+.business-listings {
+    margin-top: 50px;
+}
+
+.business {
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+    .business h3 {
+        font-size: 24px;
+        color: #333;
+        margin-bottom: 10px;
+    }
+
+    .business p {
+        font-size: 16px;
+        color: #666;
+        margin-bottom: 10px;
+    }
+
+        .business p:last-child {
+            margin-bottom: 0;
+        }
+
+footer {
+    background-color: #f0f0f0;
+    padding: 20px;
+    text-align: center;
+    font-size: 14px;
+    color: #666;
+    position: static;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+}
