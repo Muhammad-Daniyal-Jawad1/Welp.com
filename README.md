@@ -22,3 +22,6 @@ Responsive Design: Enjoy a seamless experience across various devices, as our pr
 
 <h1>Acknowledgments:</h1>
 This project is a tribute to Yelp.com and endeavors to offer a comparable platform for business reviews and discovery using ASP.NET.
+
+
+Built in Collaboration with Ikram Ul Haq
