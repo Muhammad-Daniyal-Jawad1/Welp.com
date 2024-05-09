@@ -25,5 +25,5 @@ This project is a tribute to Yelp.com and endeavors to offer a comparable platfo
 
 
 
-
+<h1>Collaborators:</h1>
 Built in Collaboration with Ikram Ul Haq
